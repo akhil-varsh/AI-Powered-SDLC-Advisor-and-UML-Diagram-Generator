@@ -1,6 +1,6 @@
 # SmartSDLC: UML Generator & SDLC Advisor
 
-![SmartSDLC Logo](https://img.shields.io/badge/SmartSDLC-UML%20%26%20SDLC%20Advisor-blue)
+![AI-Powered-SDLC-Advisor-and-UML-Diagram-Generator Logo](https://img.shields.io/badge/SmartSDLC-UML%20%26%20SDLC%20Advisor-blue)
 [![Python](https://img.shields.io/badge/Python-3.11+-green.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.26+-red.svg)](https://streamlit.io/)
 [![CrewAI](https://img.shields.io/badge/CrewAI-Latest-orange.svg)](https://github.com/crewai/crewai)
@@ -29,8 +29,8 @@ SmartSDLC is an AI-powered tool designed to assist software developers and proje
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/SmartSDLC.git
-cd SmartSDLC
+git clone https://github.com/akhil-varsh/AI-Powered-SDLC-Advisor-and-UML-Diagram-Generator.git
+cd AI-Powered-SDLC-Advisor-and-UML-Diagram-Generator
 ```
 
 ### 2. Set up a virtual environment (optional but recommended)
@@ -78,11 +78,11 @@ streamlit run app.py
 - `model_api.py`: API for interacting with Ollama models
 - `crew_orchestration.py`: CrewAI setup for agent collaboration
 - `mermaid_renderer.py`: Rendering Mermaid diagrams
-- `diagram_renderer.py`: Additional diagram rendering utilities
+
 
 ## 🔄 How It Works
 
-SmartSDLC uses a multi-agent approach through CrewAI to:
+AI-Powered-SDLC-Advisor-and-UML-Diagram-Generator uses a multi-agent approach through CrewAI to:
 
 1. Analyze your software product description
 2. Generate appropriate UML diagrams in Mermaid syntax
