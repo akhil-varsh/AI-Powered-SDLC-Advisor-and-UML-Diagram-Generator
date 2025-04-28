@@ -1,4 +1,4 @@
-# SmartSDLC: UML Generator & SDLC Advisor
+# AI-Powered-SDLC-Advisor-and-UML-Diagram-Generator
 
 ![AI-Powered-SDLC-Advisor-and-UML-Diagram-Generator Logo](https://img.shields.io/badge/SmartSDLC-UML%20%26%20SDLC%20Advisor-blue)
 [![Python](https://img.shields.io/badge/Python-3.11+-green.svg)](https://www.python.org/downloads/)
@@ -6,9 +6,13 @@
 [![CrewAI](https://img.shields.io/badge/CrewAI-Latest-orange.svg)](https://github.com/crewai/crewai)
 [![Ollama](https://img.shields.io/badge/Ollama-Latest-purple.svg)](https://ollama.ai/)
 
+---
+
 ## 📌 Overview
 
-SmartSDLC is an AI-powered tool designed to assist software developers and project managers in UML diagram generation and SDLC (Software Development Life Cycle) methodology selection. By leveraging local AI models through Ollama, SmartSDLC generates professional UML diagrams and provides tailored SDLC recommendations based on project descriptions.
+AI-Powered-SDLC-Advisor-and-UML-Diagram-Generator is an AI-powered tool designed to assist software developers and project managers in UML diagram generation and SDLC (Software Development Life Cycle) methodology selection. By leveraging local AI models through Ollama, SmartSDLC generates professional UML diagrams and provides tailored SDLC recommendations based on project descriptions.
+
+---
 
 ### ✨ Key Features
 
@@ -19,11 +23,15 @@ SmartSDLC is an AI-powered tool designed to assist software developers and proje
 - **🔽 Export Options**: Save diagrams as images or copy Mermaid code
 - **💻 Local Processing**: Runs on your local machine using Ollama (no data sent to external APIs)
 
+---
+
 ## 📋 Prerequisites
 
 - Python 3.11 or higher
 - [Ollama](https://ollama.ai/) installed and running locally
 - Qwen 2.5:3B model pulled in Ollama
+
+---
 
 ## 🚀 Installation
 
@@ -72,6 +80,8 @@ streamlit run app.py
 5. View your diagram and SDLC recommendation
 6. Export or copy the diagram as needed
 
+---
+
 ## 🏗️ Project Structure
 
 - `app.py`: Main Streamlit application interface
@@ -79,6 +89,7 @@ streamlit run app.py
 - `crew_orchestration.py`: CrewAI setup for agent collaboration
 - `mermaid_renderer.py`: Rendering Mermaid diagrams
 
+---
 
 ## 🔄 How It Works
 
@@ -93,6 +104,23 @@ The agents work together sequentially:
 - The SDLC Advisor agent evaluates project requirements and constraints
 - The UML Generator agent creates accurate Mermaid code for the selected diagram type
 
+---
+
+## 📷 Screenshots
+
+<table>
+  <tr>
+    <td><img src="images/Screenshot 2025-04-29 010202.png" alt="SmartSDLC Screenshot 1" width="100%"></td>
+    <td><img src="images/Screenshot 2025-04-29 010212.png" alt="SmartSDLC Screenshot 2" width="100%"></td>
+  </tr>
+  <tr>
+    <td><img src="images/Screenshot 2025-04-29 010223.png" alt="SmartSDLC Screenshot 3" width="100%"></td>
+    <td><img src="images/Screenshot 2025-04-29 010232.png" alt="SmartSDLC Screenshot 4" width="100%"></td>
+  </tr>
+</table>
+
+---
+
 ## 📚 Supported Diagram Types
 
 - **Use Case Diagram**: Shows interactions between users and system
@@ -102,13 +130,19 @@ The agents work together sequentially:
 - **Communication Diagram**: Shows object interactions with numbered messages
 - **State Machine Diagram**: Shows states, transitions, events, and actions
 
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
+---
+
 ## 📜 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
 
 ## 🙏 Acknowledgments
 
@@ -117,3 +151,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Ollama](https://ollama.ai/) for local model hosting
 - [Mermaid.js](https://mermaid-js.github.io/mermaid/) for diagram visualization
 - [Qwen](https://huggingface.co/qwen) for the underlying language model
+
+---
+
+<p align="center">
+  Made with ❤️ by Akhil
+</p>
