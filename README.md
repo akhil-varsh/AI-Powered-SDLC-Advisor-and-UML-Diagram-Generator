@@ -153,7 +153,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [Qwen](https://huggingface.co/qwen) for the underlying language model
 
 ---
-
-<p align="center">
-  Made with ❤️ by Akhil
-</p>
