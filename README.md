@@ -62,7 +62,7 @@ Download Ollama from [https://ollama.ai/](https://ollama.ai/) and start the serv
 
 ### 5. Pull the required model
 ```bash
-ollama pull qwen2.5:3b
+ollama pull phi3.5:3.8b
 ```
 
 ## 💻 Usage
@@ -150,7 +150,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [CrewAI](https://github.com/crewai/crewai) for the agent orchestration framework
 - [Ollama](https://ollama.ai/) for local model hosting
 - [Mermaid.js](https://mermaid-js.github.io/mermaid/) for diagram visualization
-- [Qwen](https://huggingface.co/qwen) for the underlying language model
 
 ---
 
