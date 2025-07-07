@@ -29,7 +29,7 @@ AI-Powered-SDLC-Advisor-and-UML-Diagram-Generator is an AI-powered tool designed
 
 - Python 3.11 or higher
 - [Ollama](https://ollama.ai/) installed and running locally
-- Qwen 2.5:3B model pulled in Ollama
+- phi3.5:3.8B model pulled in Ollama
 
 ---
 
