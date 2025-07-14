@@ -29,7 +29,7 @@ AI-Powered-SDLC-Advisor-and-UML-Diagram-Generator is an AI-powered tool designed
 
 - Python 3.11 or higher
 - [Ollama](https://ollama.ai/) installed and running locally
-- phi3.5:3.8B model pulled in Ollama
+
 
 ---
 
@@ -62,7 +62,7 @@ Download Ollama from [https://ollama.ai/](https://ollama.ai/) and start the serv
 
 ### 5. Pull the required model
 ```bash
-ollama pull phi3.5:3.8b
+ollama pull <model_name>
 ```
 
 ## 💻 Usage
