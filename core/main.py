@@ -11,8 +11,8 @@ import os
 from PIL import Image
 
 # Import local modules
-from model_api import call_model
-from crew_orchestration import run_crew_task
+from claude.core.model_api import call_model
+from claude.core.crew_orchestration import run_crew_task
 from diagram_renderer import generate_plantuml_url, render_diagram
 
 def parse_arguments():

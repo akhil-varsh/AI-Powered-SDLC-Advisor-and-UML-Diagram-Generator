@@ -1,0 +1,9 @@
+streamlit>=1.26
+crewai
+ollama
+requests
+pillow
+base64
+zlib
+argparse
+langchain_community

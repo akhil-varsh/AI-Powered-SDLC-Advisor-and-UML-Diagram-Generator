@@ -1,0 +1,10 @@
+sequenceDiagram
+    Alice->Jerry: CreateAccountRequest
+    Jerry->Barry: accountCreated(accountId)
+    Barry-->>Alice: accountId
+    Alice->Barry: TransferFundsRequest(senderAccountId, receiverAccountId, amount)
+    Barry->Charlie: fundsTransfer(fundsTransferred)
+    Charlie-->>Barry: success
+    Barry-->>Alice: TransactionAcknowledged(transactionId)
+    Alice-->>Jerry: UpdateAccountBalance(accountId, newBalance)
+    Jerry-->>Alice: AccountUpdated(updatedBalance)
