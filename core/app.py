@@ -95,7 +95,7 @@ with st.container():
         
         # UML diagram type selection
         with col1:
-            diagram_types = ["Use Case", "Class", "Sequence", "Component", "Communication", "State Machine"]
+            diagram_types = ["Use Case", "Class", "Sequence", "Communication", "State Machine"]
             selected_diagram = st.selectbox("UML Diagram Type:", diagram_types)
         
         # Model parameters

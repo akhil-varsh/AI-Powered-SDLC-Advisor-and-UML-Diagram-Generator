@@ -1,0 +1,16 @@
+sequenceDiagram
+customer->>bank: CustomerRequestForAccountManagement
+bank-->>customer: AccountCreated
+customer->>bank: RequestForTransactionProcessing
+bank-->>customer: TransactionAcknowledged
+customer->>bank: ApplyForLoan
+bank-->>customer: LoanApplicationReceived
+bank-->>user: SubmitDocumentationForLoanApproval
+approvalSystem-->>loanApplicant: DocumentationReviewed
+approvalSystem-->>loanApplicant: ApprovalDecision
+loanApplicant-->>approvalSystem: AcceptApprovalDecision
+approvalSystem-->>bank: ApprovedLoanGranted
+bank-->>customer: NotificationOfApprovedLoan
+customer->>bank: CustomerFeedbackRequest
+bank-->>customer: FeedbackProcessed
+bank-->>user: UpdateCustomerRecords

@@ -36,7 +36,16 @@ def create_sdlc_advisor_agent() -> Agent:
     6. DevOps - Integration of development and operations throughout lifecycle
     7. RAD (Rapid Application Development) - Emphasis on rapid prototyping
     8. V-Model - Testing integrated with each development phase
-    
+
+    KEY BENEFITS:
+        - [Benefit 1]
+        - [Benefit 2]
+        - [Benefit 3]
+        
+    POTENTIAL CHALLENGES:
+        - [Challenge 1]
+        - [Challenge 2]
+
     Provide a clear recommendation with 3-5 bullet points justifying your choice.
     """
     
@@ -112,30 +121,9 @@ def create_mermaid_generator_agent() -> Agent:
              S->>D: Validate Credentials
              D-->>S: Authentication Result
              S-->>U: Login Response
-         
-    
-    4. Component Diagram (as flowchart in Mermaid):
-       - Show system components and their interfaces
-       - Define dependencies between components
-       - Group related components
-       - Use the flowchart LR syntax
-       - Example:
-         
-         flowchart LR
-             subgraph Frontend
-                 UI[User Interface]
-                 Logic[Business Logic]
-             end
-             subgraph Backend
-                 API[REST API]
-                 DB[(Database)]
-             end
-             UI --> Logic
-             Logic --> API
-             API --> DB
-         
-    
-    5. Communication Diagram (as flowchart in Mermaid):
+
+
+   4. Communication Diagram (as flowchart in Mermaid):
        - Show object interactions with numbered messages
        - Focus on structural organization
        - Use the flowchart syntax
@@ -149,9 +137,9 @@ def create_mermaid_generator_agent() -> Agent:
              B -->|2: validate()| C
              C -->|3: result()| B
              B -->|4: response()| A
-         
-    
-    6. State Machine Diagram:
+
+
+    5. State Machine Diagram:
        - Show states, transitions, events, and actions
        - Include initial and final states
        - Define guard conditions where needed
@@ -220,6 +208,7 @@ def run_crew_task(product_description: str, diagram_type: str,
         
         # Map diagram types to Mermaid syntax
         mermaid_diagram_type_map = {
+             "Sequence": "sequenceDiagram",
             "Use Case": "flowchart TD (for Use Case Diagram)",
             "Class": "classDiagram",
             "Sequence": "sequenceDiagram",
